@@ -9,7 +9,7 @@ This bot is designed to interact with the Plume contract on the testnet. Follow 
    First, clone the Plume bot repository to your local directory:
 
    ```bash
-   git clone https://github.com/caraka15/plume-bot.git
+   git clone https://github.com/achwir/rivalzcrxa
    ```
 
 2. **Navigate to the Directory**
@@ -61,32 +61,15 @@ This bot is designed to interact with the Plume contract on the testnet. Follow 
 
 If you prefer to run scripts manually instead of using the scheduler, follow these commands:
 
-- **Run `checkIn.js`:**
+- **Run `rivalz.js`:**
 
   ```bash
-  node checkIn.js
-  ```
-
-- **Run `movement.js`:**
-
-  ```bash
-  node movement.js
-  ```
-
-- **Run `landShare.js`:**
-
-  ```bash
-  node landShare.js
+  node rivalz.js
   ```
 
 ## Project Structure
 
-- `checkIn.js` - Script for performing check-ins.
-- `movement.js` - Script for predicting price movements.
-- `landShare.js` - Script for sharing land results.
-- `scheduler.sh` - Shell script for scheduling and running tasks periodically.
-- `config.json` - Configuration file for RPC URL and other settings.
-- `abi/` - Directory containing contract ABI files.
+- `node rivalz.js` - Script for performing check-ins.
 
 ## Troubleshooting
 
@@ -101,3 +84,5 @@ If problems persist, check the logs for more details.
 ## Contact
 
 For further assistance, please open an issue on the repository.
+
+Author : https://github.com/caraka15/
